@@ -1,20 +1,8 @@
 {
   "pages": [
     {
-      "id": "Feedback Page",
+      "id": "Page1",
       "isDefault": true
-    },
-    {
-      "id": "Edit Profile",
-      "isDefault": false
-    },
-    {
-      "id": "Feedback Page Copy",
-      "isDefault": false
-    },
-    {
-      "id": "Upload Materials",
-      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -25,8 +13,8 @@
       "type": "FIXED"
     }
   },
-  "color": "#FFDEDE",
-  "icon": "saturn",
+  "color": "#C2DAF0",
+  "icon": "book",
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
