@@ -122,7 +122,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 48,
+    "originalBottomRow": 49,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -240,7 +240,7 @@
     "bottomRow": 49,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Form",
+    "title": "Edit Profile",
     "hideCard": false,
     "mobileRightColumn": 30,
     "parentColumnSpace": 9.890625,
