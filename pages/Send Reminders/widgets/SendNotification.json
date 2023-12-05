@@ -185,7 +185,7 @@
                 "originalIdentifier": "study_group",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(SendNotification.sourceData, SendNotification.formData, SendNotification.fieldState)}}",
                 "children": {},
-                "options": "[{\"label\" : {{GetStudyGroup.data}}.Name\n\t\"value\" : {{GetStudyGroup.data}}.GroupID}]",
+                "options": "[{\"label\" : {{GetStudyGroup.data.Name}}\n\t\"value\" : {{GetStudyGroup.data.GroupID}}}]",
                 "placeholderText": "",
                 "position": 0,
                 "isDisabled": false,
