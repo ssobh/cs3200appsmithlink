@@ -2,11 +2,11 @@
   "pages": [
     {
       "id": "Feedback Page",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Edit Profile",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Feedback Page Copy",
@@ -14,6 +14,18 @@
     },
     {
       "id": "Upload Materials",
+      "isDefault": false
+    },
+    {
+      "id": "Send Reminders",
+      "isDefault": false
+    },
+    {
+      "id": "Post Message",
+      "isDefault": false
+    },
+    {
+      "id": "File Report",
       "isDefault": false
     }
   ],
@@ -27,6 +39,9 @@
   },
   "color": "#C2DAF0",
   "icon": "book",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

@@ -1,26 +1,27 @@
 {
   "unpublishedPage": {
-    "name": "Edit Profile",
-    "slug": "edit-profile",
+    "name": "Post Message",
+    "slug": "post-message",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
+          "rightColumn": 4896,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 570,
+          "bottomRow": 380,
           "containerStyle": "none",
-          "snapRows": 56,
+          "snapRows": 124,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 580,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,7 +29,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Edit Profile",
+        "id": "Post Message",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +40,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656bb3e1ac479b5c508192b7_656d066560d43277de27b73e"
+  "gitSyncId": "656ba4dd427200263975dd2f_656f421b15877064451273fb"
 }
