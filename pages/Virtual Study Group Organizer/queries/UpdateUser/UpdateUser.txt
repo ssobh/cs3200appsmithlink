@@ -1,7 +1,0 @@
-{
-	"firstName" : {{EditProfile.formData.firstName}},
-	"lastName" : {{EditProfile.formData.lastName}},
-	"userYear" : {{EditProfile.formData.year}},
-	"major": {{EditProfile.formData.major}},
-	"preferredSubject" : {{EditProfile.formData.subject}}
-}
