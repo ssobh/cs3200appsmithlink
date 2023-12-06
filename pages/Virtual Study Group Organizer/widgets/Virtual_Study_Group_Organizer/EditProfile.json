@@ -126,7 +126,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 71,
+    "originalBottomRow": 72,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -324,7 +324,7 @@
         "buttonVariant": "PRIMARY"
     },
     "displayName": "JSON Form",
-    "bottomRow": 71,
+    "bottomRow": 5,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Edit Profile",
