@@ -1,10 +1,6 @@
 {
   "pages": [
     {
-      "id": "Feedback Page",
-      "isDefault": false
-    },
-    {
       "id": "Edit Profile",
       "isDefault": false
     },
@@ -21,16 +17,20 @@
       "isDefault": false
     },
     {
-      "id": "Post Message",
-      "isDefault": false
-    },
-    {
       "id": "File Report",
       "isDefault": false
     },
     {
       "id": "Virtual Study Group Organizer",
       "isDefault": true
+    },
+    {
+      "id": "Create Message Board",
+      "isDefault": false
+    },
+    {
+      "id": "Delete Bookmarks",
+      "isDefault": false
     }
   ],
   "viewMode": false,
