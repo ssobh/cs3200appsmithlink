@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Create Message Board_Api1",
-              "name": "Api1",
+              "id": "Create Message Board_showMessageBoards",
+              "name": "showMessageBoards",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],

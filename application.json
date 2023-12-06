@@ -1,10 +1,6 @@
 {
   "pages": [
     {
-      "id": "Feedback Page",
-      "isDefault": false
-    },
-    {
       "id": "Edit Profile",
       "isDefault": false
     },
@@ -30,6 +26,10 @@
     },
     {
       "id": "Create Message Board",
+      "isDefault": false
+    },
+    {
+      "id": "Delete Bookmarks",
       "isDefault": false
     }
   ],
