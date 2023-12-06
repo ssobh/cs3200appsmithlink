@@ -34,7 +34,7 @@
         "Display"
     ],
     "isLoading": false,
-    "onSearchTextChanged": "{{Api1.run()}}",
+    "onSearchTextChanged": "{{showMessageBoards.run()}}",
     "childStylesheet": {
         "button": {
             "boxShadow": "none",
@@ -214,7 +214,7 @@
     "textSize": "0.875rem",
     "widgetId": "4roc80sypu",
     "minWidth": 450,
-    "tableData": "{{Api1.data}}",
+    "tableData": "{{showMessageBoards.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",
