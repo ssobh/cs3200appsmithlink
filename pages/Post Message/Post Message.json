@@ -1,26 +1,27 @@
 {
   "unpublishedPage": {
-    "name": "Delete Bookmarks",
-    "slug": "delete-bookmarks",
+    "name": "Post Message",
+    "slug": "post-message",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
+          "rightColumn": 4896,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 410,
+          "bottomRow": 380,
           "containerStyle": "none",
-          "snapRows": 80,
+          "snapRows": 124,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 820,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,7 +29,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Delete Bookmarks",
+        "id": "Post Message",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +40,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656feac4734aad02e633db10_65702000734aad02e633db4d"
+  "gitSyncId": "656ba4dd427200263975dd2f_656f421b15877064451273fb"
 }

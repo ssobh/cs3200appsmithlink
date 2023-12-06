@@ -2,7 +2,6 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{CreateResource.run()}}",
     "topRow": 1,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -18,8 +17,7 @@
         {"key": "schema.__root_schema__.children.customField1.borderRadius"},
         {"key": "schema.__root_schema__.defaultValue"},
         {"key": "schema.__root_schema__.children.customField2.accentColor"},
-        {"key": "schema.__root_schema__.children.customField2.borderRadius"},
-        {"key": "schema.__root_schema__.children.customField1.options"}
+        {"key": "schema.__root_schema__.children.customField2.borderRadius"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -118,7 +116,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 34,
+    "originalBottomRow": 35,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -149,8 +147,20 @@
                 "originalIdentifier": "customField1",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(UploadResource.sourceData, UploadResource.formData, UploadResource.fieldState)}}",
                 "children": {},
-                "options": "{{GetStudyGroup.data}}",
-                "onOptionChange": "{{GetStudyGroup.run()}}",
+                "options": [
+                    {
+                        "label": "Blue",
+                        "value": "BLUE"
+                    },
+                    {
+                        "label": "Green",
+                        "value": "GREEN"
+                    },
+                    {
+                        "label": "Red",
+                        "value": "RED"
+                    }
+                ],
                 "position": 0,
                 "isDisabled": false,
                 "sourceData": "",
@@ -164,7 +174,7 @@
                 "isCustomField": true,
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(UploadResource.sourceData, UploadResource.formData, UploadResource.fieldState)}}",
                 "dataType": "string",
-                "accessor": "uploadedResource",
+                "accessor": "resourceLink",
                 "isVisible": true,
                 "label": "Paste link for resource:",
                 "originalIdentifier": "customField2",
@@ -192,17 +202,14 @@
         "buttonVariant": "PRIMARY"
     },
     "displayName": "JSON Form",
-    "bottomRow": 34,
+    "bottomRow": 35,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Upload Resource",
     "hideCard": false,
     "mobileRightColumn": 17,
     "parentColumnSpace": 11.51171875,
-    "dynamicTriggerPathList": [
-        {"key": "schema.__root_schema__.children.customField1.onOptionChange"},
-        {"key": "onSubmit"}
-    ],
+    "dynamicTriggerPathList": [],
     "borderWidth": "1",
     "sourceData": "",
     "resetButtonLabel": "Reset",

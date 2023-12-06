@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "GetBookmarks",
+    "name": "GetStudyGroup",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/b/bookmarks/1"
+        "url": "web:4000"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Delete Bookmarks",
+    "pageId": "Feedback Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -45,10 +45,9 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-06T07:22:03Z"
+    "userPermissions": []
   },
-  "id": "Delete Bookmarks_GetBookmarks",
+  "id": "Feedback Page_GetStudyGroup",
   "deleted": false,
-  "gitSyncId": "656feac4734aad02e633db10_6570211b734aad02e633db4f"
+  "gitSyncId": "656bb3e1ac479b5c508192b7_656bde34427200263975de0a"
 }
