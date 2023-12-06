@@ -145,6 +145,7 @@
                 "identifier": "study_group",
                 "boxShadow": "none",
                 "isRequired": false,
+                "isFilterable": false,
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.study_group))(AddNewFeedback.sourceData, AddNewFeedback.formData, AddNewFeedback.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(AddNewFeedback.sourceData, AddNewFeedback.formData, AddNewFeedback.fieldState)}}",
@@ -152,15 +153,28 @@
                 "accessor": "study_group",
                 "isVisible": true,
                 "label": "Which study group are you reviewing?",
+                "serverSideFiltering": false,
                 "originalIdentifier": "study_group",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(AddNewFeedback.sourceData, AddNewFeedback.formData, AddNewFeedback.fieldState)}}",
                 "children": {},
-                "isSpellCheck": false,
-                "iconAlign": "left",
+                "options": [
+                    {
+                        "label": "Blue",
+                        "value": "BLUE"
+                    },
+                    {
+                        "label": "Green",
+                        "value": "GREEN"
+                    },
+                    {
+                        "label": "Red",
+                        "value": "RED"
+                    }
+                ],
                 "position": 0,
                 "isDisabled": false,
                 "sourceData": "",
-                "fieldType": "Text Input"
+                "fieldType": "Select"
             },
             "review_text": {
                 "labelTextSize": "0.875rem",
@@ -230,7 +244,7 @@
     "bottomRow": 49,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Form",
+    "title": "Study Group Review",
     "hideCard": false,
     "mobileRightColumn": 28,
     "parentColumnSpace": 7.9375,

@@ -6,7 +6,7 @@
     },
     {
       "id": "Edit Profile",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Feedback Page Copy",
@@ -27,6 +27,10 @@
     {
       "id": "File Report",
       "isDefault": false
+    },
+    {
+      "id": "Virtual Study Group Organizer",
+      "isDefault": true
     }
   ],
   "viewMode": false,

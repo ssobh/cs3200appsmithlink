@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Edit Profile",
-    "slug": "edit-profile",
+    "name": "Virtual Study Group Organizer",
+    "slug": "virtual-study-group-organizer",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 720,
+          "bottomRow": 910,
           "containerStyle": "none",
-          "snapRows": 56,
+          "snapRows": 55,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 580,
+          "minHeight": 570,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Edit Profile",
+        "id": "Virtual Study Group Organizer",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656bb3e1ac479b5c508192b7_656d066560d43277de27b73e"
+  "gitSyncId": "656ba4dd427200263975dd2f_656fcb2171fd044a950e13a7"
 }
