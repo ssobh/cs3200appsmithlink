@@ -1,35 +1,45 @@
 {
   "unpublishedPage": {
-    "name": "Post Message",
-    "slug": "post-message",
+    "name": "Create Message Board",
+    "slug": "create-message-board",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 1000,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 80,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 820,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Create Message Board_Api1",
+              "name": "Api1",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Post Message",
+        "id": "Create Message Board",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -40,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656ba4dd427200263975dd2f_656f421b15877064451273fb"
+  "gitSyncId": "656feac4734aad02e633db10_656ff677734aad02e633db38"
 }
