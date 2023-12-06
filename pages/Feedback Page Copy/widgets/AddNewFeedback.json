@@ -149,7 +149,7 @@
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.study_group))(AddNewFeedback.sourceData, AddNewFeedback.formData, AddNewFeedback.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(AddNewFeedback.sourceData, AddNewFeedback.formData, AddNewFeedback.fieldState)}}",
                 "dataType": "string",
-                "accessor": "study_group",
+                "accessor": "studyGroupID",
                 "isVisible": true,
                 "label": "Which study group are you reviewing?",
                 "originalIdentifier": "study_group",
@@ -160,7 +160,7 @@
                 "position": 0,
                 "isDisabled": false,
                 "sourceData": "",
-                "fieldType": "Text Input"
+                "fieldType": "Number Input"
             },
             "review_text": {
                 "labelTextSize": "0.875rem",
@@ -227,7 +227,7 @@
     },
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
-    "bottomRow": 49,
+    "bottomRow": 47,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Feedback Form",
