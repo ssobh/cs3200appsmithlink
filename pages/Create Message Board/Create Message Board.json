@@ -28,7 +28,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Create Message Board_showMessageBoards",
               "name": "showMessageBoards",
               "confirmBeforeExecute": false,
               "pluginType": "API",

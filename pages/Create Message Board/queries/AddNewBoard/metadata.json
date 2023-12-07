@@ -57,8 +57,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-06T04:22:26Z"
+    "userPermissions": []
   },
   "id": "Create Message Board_AddNewBoard",
   "deleted": false,

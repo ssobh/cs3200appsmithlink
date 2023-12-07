@@ -1,10 +1,6 @@
 {
   "pages": [
     {
-      "id": "Feedback Page",
-      "isDefault": false
-    },
-    {
       "id": "Edit Profile",
       "isDefault": false
     },

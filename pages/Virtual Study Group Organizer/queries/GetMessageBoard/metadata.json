@@ -45,8 +45,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-06T16:21:57Z"
+    "userPermissions": []
   },
   "id": "Virtual Study Group Organizer_GetMessageBoard",
   "deleted": false,

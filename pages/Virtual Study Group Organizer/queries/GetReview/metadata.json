@@ -46,8 +46,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-06T07:12:05Z"
+    "userPermissions": []
   },
   "id": "Virtual Study Group Organizer_GetReview",
   "deleted": false,
