@@ -41,7 +41,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       }
     },
     "executeOnLoad": false,
@@ -66,8 +66,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-06T04:03:30Z"
+    "userPermissions": []
   },
   "id": "Virtual Study Group Organizer_UpdateUser",
   "deleted": false,

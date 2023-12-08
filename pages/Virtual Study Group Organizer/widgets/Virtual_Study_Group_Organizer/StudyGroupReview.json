@@ -120,7 +120,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 40,
+    "originalBottomRow": 42,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -220,7 +220,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 40,
+    "bottomRow": 42,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Study Group Review",

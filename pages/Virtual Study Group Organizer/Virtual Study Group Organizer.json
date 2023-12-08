@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1450,
+          "bottomRow": 1280,
           "containerStyle": "none",
           "snapRows": 55,
           "parentRowSpace": 1,
@@ -36,14 +36,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Virtual Study Group Organizer_GetReview",
-              "name": "GetReview",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Virtual Study Group Organizer_GetStudyGroup",
               "name": "GetStudyGroup",
               "confirmBeforeExecute": false,
@@ -57,6 +49,18 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Virtual Study Group Organizer_GetReview",
+              "name": "GetReview",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "StudyGroupReview.formData.studyGroup"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
