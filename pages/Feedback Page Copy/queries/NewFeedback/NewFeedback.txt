@@ -1,4 +1,0 @@
-{
-	"review" : {{AddNewFeedback.formData.review_text}},
-  "rating" : {{AddNewFeedback.formData.review_rating}}
-}

@@ -1,36 +1,8 @@
 {
   "pages": [
     {
-      "id": "Feedback Page",
-      "isDefault": false
-    },
-    {
-      "id": "Edit Profile",
-      "isDefault": false
-    },
-    {
-      "id": "Feedback Page Copy",
-      "isDefault": false
-    },
-    {
-      "id": "Upload Materials",
-      "isDefault": false
-    },
-    {
-      "id": "Send Reminders",
-      "isDefault": false
-    },
-    {
-      "id": "File Report",
-      "isDefault": false
-    },
-    {
       "id": "Virtual Study Group Organizer",
       "isDefault": true
-    },
-    {
-      "id": "Create Message Board",
-      "isDefault": false
     }
   ],
   "viewMode": false,
