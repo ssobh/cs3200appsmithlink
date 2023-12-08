@@ -8,4 +8,4 @@ This app is built using Appsmith. Turn any datasource into an internal app in mi
 
 ##### You can visit the application using the below link
 
-###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](https://app.appsmith.com/applications/656ba4dd427200263975dd2f/pages/656ba4dd427200263975dd32) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](https://app.appsmith.com/applications/656ba4dd427200263975dd2f/pages/656ba4dd427200263975dd32/edit)
+###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ]([https://app.appsmith.com/applications/656ba4dd427200263975dd2f/pages/656ba4dd427200263975dd32](https://app.appsmith.com/app/studygroupmain/virtual-study-group-organizer-656fcb2171fd044a950e13a8?branch=main)) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](https://app.appsmith.com/applications/656ba4dd427200263975dd2f/pages/656ba4dd427200263975dd32/edit)
