@@ -12,3 +12,5 @@ This app is built using Appsmith. Turn any datasource into an internal app in mi
 
 Just in Case Link:
 https://app.appsmith.com/app/studygroupmain/virtual-study-group-organizer-656fcb2171fd044a950e13a8?branch=main
+
+*Note: Couple of tables below to show that changes are being made in the database (there due to requirements, otherwise not part of actual UI)
